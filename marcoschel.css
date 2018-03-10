@@ -34,8 +34,13 @@ h1 {
 
 .main-container {
   margin-top: 50px;
-  padding: 50px 50px 50px 50px;
+  padding: 0px 50px 50px 50px;
   background-color: #fff;
+}
+
+footer .main-container {
+  padding: 50px 50px 50px 50px;
+  background-color: #ddd;
 }
 
 .navbar-right {
@@ -107,5 +112,10 @@ p a:hover {
 }
 
 .col-md-12{
-  padding: 35px 35px 35px 35px;
+  padding: 50px 50px 50px 50px;
+}
+
+footer .main-container {
+  padding: 50px 50px 50px 50px;
+  background-color: #ddd;
 }
