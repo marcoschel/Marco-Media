@@ -30,7 +30,6 @@ h1 {
   text-align: center;
   font-family: helvetica;
   font-size: 60px;
-  text-shadow: 2px 2px #000;
 }
 
 .main-container {
@@ -58,6 +57,25 @@ header h1 {
   font-size: 300px;
   text-align: center;
   color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+header h2 {
+  font-family: 'Beast';
+  font-size: 100px;
+  text-align: center;
+  color: #fff;
+  opacity: 0.6;
+  text-shadow: 2px 2px #000;
+}
+
+p a {
+  color: #aaa;
+}
+
+p a:hover {
+  color: #E30613 !important;
+  transition: 300ms ease;
 }
 
 .box {
@@ -78,4 +96,16 @@ header h1 {
   height: 100vh;
   position: relative;
   overflow: hidden;
+}
+
+.col-md-4{
+  padding: 50px 50px 50px 50px;
+}
+
+.col-md-8{
+  padding: 50px 50px 50px 50px;
+}
+
+.col-md-12{
+  padding: 35px 35px 35px 35px;
 }
