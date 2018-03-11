@@ -1,4 +1,11 @@
-/* influenced by IVAN LAZAREVIC'S jQuery snow http://workshop.rs/projects/jqsnow/ */
+/* Menu animatie! */
+
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+
+
+/* LET IT SNOW IN THE HEADER! */
 
 function $snow() {
   var snow = $('<div id="snow"/>').css({
