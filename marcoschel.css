@@ -42,12 +42,6 @@ h1 {
   font-size: 60px;
 }
 
-.main-container {
-  margin-top: 50px;
-  padding: 0px 50px 50px 50px;
-  background-color: #fff;
-}
-
 header {
   margin-top: -58px;
   background: url(img/header.jpg) no-repeat center center fixed;
@@ -84,6 +78,18 @@ p a:hover {
   transition: 300ms ease;
 }
 
+.main-container {
+  margin-top: 50px;
+  padding: 50px 50px 50px 50px;
+  background-color: #fff;
+}
+
+.main-container-b {
+  margin-top: 50px;
+  padding: 50px 50px 50px 50px;
+  background-color: #fff;
+}
+
 .box {
   width: 100%;
   text-align: center;
@@ -105,11 +111,16 @@ p a:hover {
 }
 
 .col-md-4{
-  padding: 50px 50px 50px 50px;
+  padding: -50px 50px 50px 50px;
 }
 
 .col-md-8{
   padding: 50px 50px 50px 50px;
+  background: url(img/lesverdons.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .col-md-12{
@@ -152,47 +163,3 @@ footer .main-container {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
-
-/*MEDIA QUERY*/
-@media only screen and (max-width : 640px) {
-
-	header {
-
-		position: absolute;
-
-	}
-
-	#menu-icon {
-
-		display:inline-block;
-
-	}
-
-	nav ul, nav:active ul {
-
-		display: none;
-		position: absolute;
-		padding: 20px;
-		background: #fff;
-		border: 0px;
-		right: 20px;
-		top: 60px;
-		width: 75%;
-		border-radius: 4px 0 4px 4px;
-
-	}
-
-	nav li {
-
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-		margin: 0;
-
-	}
-
-	nav:hover ul {
-
-		display: block;
-
-	}
