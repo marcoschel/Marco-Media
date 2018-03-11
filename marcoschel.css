@@ -54,7 +54,7 @@ header {
 
 header h1 {
   font-family: 'Beast';
-  font-size: 300px;
+  font-size: 250px;
   text-align: center;
   color: #fff;
   text-shadow: 2px 2px #000;
@@ -111,7 +111,7 @@ p a:hover {
 }
 
 .col-md-4{
-  padding: -50px 50px 50px 50px;
+  padding: 50px 50px 50px 50px;
 }
 
 .col-md-8{
@@ -121,6 +121,13 @@ p a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.col-md-8 h2 {
+  text-align: center;
+  font-family: helvetica;
+  color: #fff;
+  opacity: 0.2;
 }
 
 .col-md-12{
