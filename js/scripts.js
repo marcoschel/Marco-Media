@@ -1,6 +1,6 @@
 /* Menu animatie! */
 
-function myFunction(x) { document.getElementById("mySidenav").classList.toggle("open");
+function myFunction() {
     x.classList.toggle("change");
 }
 
