@@ -139,7 +139,7 @@ footer .main-container {
   background-color: #ddd;
 }
 
-/* Animated footer optie "x" */
+/* Animated footer optie "x"///////////////////////////////////////////////// */
 
 .container {
     display: inline-block;
@@ -170,3 +170,16 @@ footer .main-container {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
+
+/* .change = wat moet er verschijnen bij de .change actie ////////*/
+
+.col-md-6 {
+    padding: 50px 50px 50px 50px;
+    color: #fff;
+}
+
+.change .col-md-6 {
+    color: #663399;
+}
+
+/* Animated footer optie "x"///////////////////////////////////////////////// */
